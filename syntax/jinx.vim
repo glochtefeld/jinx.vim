@@ -20,20 +20,8 @@ syntax region jinxString start=/\v"/ skip=/\v\\./ end=/\v"/
 
 syntax keyword jinxFunction write 
 
-syntax region jinxComment start=/\v--/ end=/$/
+syntax match jinxComment "\v--.*"
 syntax region jinxComment start=/\v---/ end=/\v---/
-
-syntax match jinxOperator "\v\+"
-syntax match jinxOperator "\v-"
-syntax match jinxOperator "\v\*"
-syntax match jinxOperator "\v/"
-syntax match jinxOperator "\v\%"
-syntax match jinxOperator "\v\="
-syntax match jinxOperator "\v!\="
-syntax match jinxOperator "\v\<"
-syntax match jinxOperator "\v\>"
-syntax match jinxOperator "\v\<\="
-syntax match jinxOperator "\v\>\="
 
 highlight link jinxKeyword Keyword
 highlight link jinxNumber Number
