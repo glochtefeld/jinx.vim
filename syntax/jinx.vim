@@ -17,7 +17,6 @@ syntax keyword jinxKeyword loop over until from to while break
 syntax keyword jinxFunction write 
 
 syntax match jinxComment "\v--.*$"
-syntax match jinxComment "\v---[^(---)]+---"
 
 syntax match jinxOperator "\v\+"
 syntax match jinxOperator "\v-"
