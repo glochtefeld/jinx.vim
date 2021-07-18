@@ -7,5 +7,6 @@ endif
 
 echom "Syntax highlighting HERE"
 
-syntax keyword jinxKeyword set test
+syntax keyword jinxKeyword set import
+highlight link jinxKeyword Keyword
 let b:current_syntax = "jinx"
