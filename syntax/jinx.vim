@@ -14,7 +14,7 @@ syntax keyword jinxKeyword over until coroutine loop from to while break
 syntax keyword jinxKeyword function return wait
 syntax keyword jinxKeyword public private readonly
 
-syntax match jinxNumber "\v[0-9]+(\.[0-9]+)?"
+syntax match jinxNumber "\v-?[0-9]*\.?[0-9]+"
 syntax keyword jinxBoolean true false
 syntax region jinxString start=/\v"/ skip=/\v\\./ end=/\v"/
 
