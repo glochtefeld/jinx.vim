@@ -38,6 +38,7 @@ syntax match jinxOperator "\v\>\="
 highlight link jinxKeyword Keyword
 highlight link jinxNumber Number
 highlight link jinxBoolean Boolean
+highlight link jinxString String
 
 highlight link jinxFunction Function
 highlight link jinxComment Comment
