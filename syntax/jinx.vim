@@ -30,7 +30,7 @@ syntax match jinxOperator "\v\>"
 syntax match jinxOperator "\v\<\="
 syntax match jinxOperator "\v\>\="
 
-syntax match jinxNumber "\v[0-9]+\.?[0-9]+"
+syntax match jinxNumber "\v[0-9]+(\.[0-9]+)?"
 highlight link jinxKeyword Keyword
 highlight link jinxFunction Function
 highlight link jinxComment Comment
