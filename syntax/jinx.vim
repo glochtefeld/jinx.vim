@@ -35,4 +35,5 @@ highlight link jinxKeyword Keyword
 highlight link jinxFunction Function
 highlight link jinxComment Comment
 highlight link jinxOperator Operator
+highlight link jinxNumber Number
 let b:current_syntax = "jinx"
